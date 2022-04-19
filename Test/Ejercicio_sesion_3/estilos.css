@@ -1,0 +1,24 @@
+.titulo{background-color: rgba(0, 0, 0, 0.308);
+    text-decoration-color: rgb(44, 44, 42);
+    text-size-adjust: 2rem;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;}
+.sub_titulo{background-color: rgba(0, 0, 0, 0.308);
+    text-decoration-color: rgb(44, 44, 42);
+    text-size-adjust: 2rem;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;}
+
+.center{text-align: center;}
+
+.parrafo{background-color: rgb(77, 4, 4);
+    color: azure;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em}
+
