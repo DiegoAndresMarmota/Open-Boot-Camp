@@ -1,0 +1,76 @@
+<!--Ejercicio sesión 2
+Crea un formulario en el que haya que introducir los siguientes datos:
+
+Nombre
+Apellido
+e-mail
+teléfono
+dirección.
+
+Como segunda parte del ejercicio deberás crear una tabla, esta tabla tendrá 4 columnas y 4 filas, en esta tabla deberás hacer que:
+Una de las celdas ocupe dos columnas.
+Una de las celdas ocupe dos filas.-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos_formulario.css">
+</head>
+<body>
+    <form id="Formulario_1" action="recibeform.html" method="post">
+    <h2 class="tamaño">Formulario</h2>
+    <fieldset>
+        <legend>Introduce tus datos personales</legend>
+        <div>
+            <input required pattern="[A-Za-z]+" type="text" value="Nombre" placeholder="Aqui ingresa tu nombre"/>
+                <input type="submit" value="Enviar Nombre"/>
+            <input required pattern="[A-Za-z]+" type="text" value="Apellido" placeholder="Aqui ingresa tu apellido"/>
+                 <input type="submit" value="Enviar Apellido"/>
+            <input required pattern="[A-Za-z0-9@]+" type="text" value="Email" placeholder="Aqui ingresa tu email"/>
+                 <input type="submit" value="Enviar E-mail"/>
+            <input required pattern="[0-9]+" type="text" value="Telefono" placeholder="Aqui ingresa tu telefono"/>
+                 <input type="submit" value="Enviar N° Telefonico"/>
+            <input  required pattern="[A-Za-z0-9]+" type="text" value="Dirección" placeholder="Aqui ingresa tu dirección"/>
+                 <input type="submit" value="Enviar Dirección"/>
+        </div>
+    </fieldset>
+    </form>
+    <br>
+    <main>
+        <table border="1" class="estilos center">Tabla 1
+        <tr class="estilos">
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+            <th>Columna 4</th>
+        </tr>
+        <tr>
+            <th>Fila 1</th>
+            <td>Fila 1</td>
+            <td colspan="2">Fila 1</td>
+        </tr>
+        <tr>
+            <th>Fila 2</th>
+            <td rowspan="2">Fila 2</td>
+            <td>Fila 2</td>
+            <td>Fila 2</td>
+        </tr>
+        <tr>
+            <th>Fila 3</th>
+            <td>Fila 3</td>
+            <td>Fila 3</td>
+        </tr>
+        <tr>
+            <th>Fila 4</th>
+            <td>Fila 4</td>
+            <td>Fila 4</td>
+            <td>Fila 4</td>
+        </tr>
+        </table>
+    </main>
+</body>
+</html>
