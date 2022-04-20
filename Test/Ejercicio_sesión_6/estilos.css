@@ -1,0 +1,12 @@
+body{background-color: black;}
+
+h1{color: white;}
+
+#noparrafo{color: brown;}
+
+.miparrafo{color: blueviolet;}
+
+p {color: green;}
+
+p[atributo="valor"]{color: yellow;}
+
