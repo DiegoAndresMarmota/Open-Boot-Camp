@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;}
+
+body{background-image: url(../Ejercicio_sesión_7/backpic1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;}    
+
+.contenedor{display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+
+.login-form{
+    background-color: white;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;}
+
+.h1 {font-family: 'Raleway', sans-serif;
+    font-weight: 300;}
+
+.login-form__field{margin-bottom: 10px;}
+
+.login-form__field input {width: 239px;
+    max-width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;}
+
+input#Check {width: auto;
+    height: 30px;
+    width: 30px;}
+
+input#usuario{background-image: url(user1.jpg.png);
+background-repeat: no-repeat;
+background-position: 3px;
+padding-left: 30px;}
+
+input#password{background-image: url(password1.jpg.png);
+background-repeat: no-repeat;
+background-position: 3px;
+padding-left: 30px;}
+
+[for="check"]{font-size: 13px;
+    position: relative;
+    top: -5px;
+    margin-left: 7px;}
+
+.button.login-form__button--button{
+    background-color: aliceblue;
+    border: 1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(4, 4, 4);
+}
