@@ -14,8 +14,7 @@
     background: red;
     transition: width 3s, height 3s, transform 10s;
     position: relative;
-    font-weight: bold;
-    animation: backwards 5s infinite;}
+    font-weight: bold;}
 
 .btn:hover {
     width: 100px;
@@ -33,6 +32,3 @@
   from {left: 0px;}
   to {left: 300px;}
 }
-@keyframes muevete {
-    from { opacity: 0; }
-    to   { opacity: 5; }
