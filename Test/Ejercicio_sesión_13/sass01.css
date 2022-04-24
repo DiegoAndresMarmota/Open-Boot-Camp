@@ -1,0 +1,31 @@
+h1 {
+  color: red;
+}
+
+h1 {
+  font-size: 1.3ms;
+  padding: 15px;
+  color: blue;
+}
+
+div {
+  padding: 5px;
+  height: 300px;
+  width: 300px;
+  margin-top: 20px;
+  background-color: #00ffea;
+  color: blue;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=sass01.css.map */
