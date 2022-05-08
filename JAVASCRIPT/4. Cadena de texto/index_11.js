@@ -17,3 +17,21 @@ console.log(substring_str)
 let substr_str = str.substr(5, 10)
 console.log(substr_str)
 
+//Reemplazar parte del contenido de una cadena de texto
+let cadena = "Hola mi nombre es Diego"
+console.log(cadena)
+
+//Al utilizar strings solo reemplaza la primera instancia
+console.log(cadena.replace('Diego', 'Capitan Fantastico'))
+
+let texto_largo = "Tito no es un mono cualquiera. A Tito no le gusta trepar por los árboles y odia comer plátanos. Él prefiere pasear por el bosque, oler las flores y recoger las nueces que se caen de los árboles"
+
+console.log(texto_largo.replace('los', 'cinco'))
+
+//Al utilizar la expresion regular/g (global) reeemplaza todas las isntancias
+console.log(texto_largo.replace(/los/g, 'cinco'))
+
+
+
+
+
