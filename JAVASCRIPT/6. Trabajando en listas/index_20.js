@@ -42,5 +42,5 @@ const listaObjetos = [
 const objeto = listaObjetos.find(o => o.nombre === "Miguel")
 console.log(objeto.edad)
 
-const { edad } = listaObjetos.find(o => o.nombre === "Miguel")
+const { edad } = listaObjetos.find(o => o.nombre === "Amaia")
 console.log(edad)
