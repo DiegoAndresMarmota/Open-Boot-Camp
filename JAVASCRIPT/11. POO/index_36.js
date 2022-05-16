@@ -22,7 +22,7 @@ class Persona {
     obtenNombre() {  //Funcion Getter  --> Nos permite acceder (de forma controlada) a algún atributo protegido
         return this.#nombre
     }
-    #obtenEdad() {
+    obtenEdad() {
         return this.#edad
     }
 
