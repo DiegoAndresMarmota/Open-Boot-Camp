@@ -1,0 +1,12 @@
+{
+  "name": "14.-nodejs-y-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index_41a.js",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
